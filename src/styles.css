@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: box-model;
+}
+
+.person {
+  background-color: #eeeeee;
+  width: 10rem;
+  margin: 1rem auto;
+  padding: 1rem;
+  text-align: center;
+  transition: all 0.3s linear;
+}
+
+.person img {
+  border-radius: 50%;
+  border: 0.1rem solid teal;
+}
+
+h1 {
+  font-size: 1rem;
+  color: teal;
+  font-family: Sans Serif;
+}
+
+.person:hover {
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+}
